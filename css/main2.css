@@ -1,4 +1,4 @@
-*{outline: solid 1px rgba(255,0,0,0.3);}
+/*{outline: solid 1px rgba(255,0,0,0.3);}*/
 .fondo{
 	background-image:url('../images/blog3.jpg');
 	background-repeat:no-repeat;
@@ -45,4 +45,7 @@
 }
 .letra12{
 	font-size:12px;
+}
+.ancho{
+	width:100%;
 }

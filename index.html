@@ -11,80 +11,89 @@
 	<link href="css/main.css" rel="stylesheet">
 </head>
 <body>
-	<header>
-		<div class="container">
-			<div class="row">
-				<div class="col-md-6">
-				 Default Welcome Msg!
-				 </div>
-				 <div class="col-md-6">
-				 	<div class="dropdown">
-  						<button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-    					Dropdown
-    					<span class="caret"></span>
-  						</button>
-  						<ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-    						<li><a href="#">Action</a></li>
-    						<li><a href="#">Another action</a></li>
-    						<li><a href="#">Something else here</a></li>
-    						<li role="separator" class="divider"></li>
-    						<li><a href="#">Separated link</a></li>
-  						</ul>
-					</div>
-				 </div>
-			</div>
-			<div class="row text-center">
-				<div class="col-md-4 horario">
-					<i class="glyphicon glyphicon-time"></i><span>OPENING TIME <br> 9:00AM-10:00PM</span>
-				</div>
-				<div class="col-md-4">
-					<img src="images/logo.png">
-				</div>
-				<div class="col-md-4">
-					<div class="input-group">
+	<header id="header">      
+        <div class="container margenes">
+            <div class="row plomo">
+                <div class="col-md-6">
+                 Default Welcome Msg!
+                 </div>
+                 <div class="col-md-6 alineados ">
+                    <div class="dropdown">
+                        <button class="btn btn-default dropdown-toggle plomo" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                        Language
+                        <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                            <li><a href="#">Action</a></li>
+                            <li><a href="#">Another action</a></li>
+                        </ul>
+                    </div>
+                    <div class="dropdown">
+                        <button class="btn btn-default dropdown-toggle plomo" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                        Language
+                        <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                            <li><a href="#">Action</a></li>
+                            <li><a href="#">Another action</a></li>
+                        </ul>
+                    </div>
+                    <div class="dropdown ">
+                        <button class="btn btn-default dropdown-toggle plomo" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                        Language
+                        <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                            <li><a href="#">Action</a></li>
+                            <li><a href="#">Another action</a></li>
+                        </ul>
+                    </div>
+                 </div>
+            </div>
+            <div class="row icon">
+            	<div class="col-md-4">
+            		<div class="col-md-3">
+            			<i class="glyphicon glyphicon-time"></i>
+            		</div>
+            		<div class="col-md-9">
+            			<p class="letra 14">OPENING TIME</p>
+            			<p class="letra 10">9:00AM-10:00PM</p>
+            		</div>
+            	</div>
+            	<div class="col-md-4">
+            		<img src="images/logo.png">
+            	</div>
+            	<div class="col-md-4">
+            		<div class="input-group">
      				<input type="text" class="form-control" placeholder="Search for...">
       				<span class="input-group-btn">
         			<button class="btn btn-default" type="button"><i class="glyphicon glyphicon-search"></i></button>
       				</span>
-   					</div><!-- /input-group -->
-  				</div>
+   					</div>
+            	</div>
 			</div>
-            <div class="row">
-            	<div class="col-md-6">
-                <a  href="#nosotros">HOME<span></span></a>
-				<a  href="#servicios">CONTACT US<span></span></a>
-				</div>
-				<div class="col-md-6">
-				</div>
-            </div>	
-			<div class="fondo">
-	          	<ul class="slides">
-	    			<input type="radio" name="radio-btn" id="img-1" checked />
-	    			<li class="slide-container">
-						<div class="slide">
-						<img src="images/slider1.jpg"/>
-	        			</div>
-						<div class="div">
-	           			 <h3>AUTUMN/WINTER LOOKBOOK<br> - 2016 COLLECTION -</h3>
-	          			</div>
-    				</li>
-					<input type="radio" name="radio-btn" id="img-2" />
-    				<li class="slide-container">
-	       				<div class="slide">
-          				<img src="images/slider2.jpg"/>
-	        			</div>
-						<div class="div">
-	           			 <h3>AUTUMN/WINTER LOOKBOOK<br> - 2016 COLLECTION -</h3>
-	          			</div>
-          				</div>
-	   				</li>
-					<li class="nav-dots">
-      				<label for="img-1" class="nav-dot" id="img-dot-1"></label>
-      				<label for="img-2" class="nav-dot" id="img-dot-2"></label>
-   					</li>
-				</ul>
-      		</div>
-      	</div>
+			<div class="row plomo alineados">
+					<div class="">
+						<a href="#">HOME</a>
+					</div>
+					<div class="">
+						<a href="#">CONTACT US</a>
+					</div>
+					<div class="">
+						<div class="dropdown">
+  						<button class="btn btn-default dropdown-toggle derecha" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+    						<i class="glyphicon glyphicon-shopping-cart"></i>
+    						My Cart
+    						<span class="caret"></span>
+  						</button>
+  						<ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+    							<li><a href="#">Home</a></li>
+    							<li><a href="#">Contact us</a></li>
+    					</ul>
+						</div>
+					</div>
+			</div>
+        </div>
 	</header>
 	<section>
 		<div class="container">
@@ -102,11 +111,11 @@
       		</div>
       	</div>
 	</section>
-	<footer>
-		<div class="col-md-3">
-			<h4>ACCESORIES</h4>
-			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem sit fuga et tenetur laboriosam eaque voluptates quibusdam doloribus tempore soluta animi sunt, nesciunt consequuntur natus iure fugit molestiae nulla aliquam!
-			<div class="social-icons pull-right">
+	<footer class="container plomo letra10">
+        <div class="col-md-3">
+            <p class="letra12" style="font-weight: bold;">ACCESORIES</p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem sit fuga et tenetur laboriosam eaque voluptates quibusdam doloribus tempore soluta animi sunt, nesciunt consequuntur natus iure fugit molestiae nulla aliquam!
+            <div class="social-icons pull-right">
                 <ul class="nav nav-pills">
                     <li><a href=""><i class="fa fa-facebook"></i></a></li>
                     <li><a href=""><i class="fa fa-twitter"></i></a></li>
@@ -115,39 +124,39 @@
                     <li><a href=""><i class="fa fa-linkedin"></i></a></li>
                     </ul>
             </div> 
-		</div>
-		<div class="col-md-2">
-			<h4>MY ACCOUNT</h4>
-			<ul>
-				<li>My account</li>
-				<li>Order History</li>
-				<li>Wish List</li>
-				<li>Newsletter</li>
-			</ul>
-		</div>
-		<div class="col-md-2">
-			<h4>MY ACCOUNT</h4>
-			<ul>
-				<li>My account</li>
-				<li>Order History</li>
-				<li>Wish List</li>
-				<li>Newsletter</li>
-			</ul>
-		</div>
-		<div class="col-md-2">
-			<h4>MY ACCOUNT</h4>
-			<ul>
-				<li>My account</li>
-				<li>Order History</li>
-				<li>Wish List</li>
-				<li>Newsletter</li>
-			</ul>
-		</div>
-		<div class="col-md-3">
-			<i class="glyphicon glyphicon-map-marker">8901 Marmona Road, Glasgow DO489 </i><br>
-			<i class="glyphicon glyphicon-earphone"></i><br>
-			<i class="glyphicon glyphicon-envelope"></i>
-		</div>
-	</footer>
+        </div>
+        <div class="col-md-2">
+            <h4>MY ACCOUNT</h4>
+            <ul class="list-unstyled">
+                <li>My account</li>
+                <li>Order History</li>
+                <li>Wish List</li>
+                <li>Newsletter</li>
+            </ul>
+        </div>
+        <div class="col-md-2">
+            <h4>INFORMATION</h4>
+            <ul class="list-unstyled">
+                <li>My account</li>
+                <li>Order History</li>
+                <li>Wish List</li>
+                <li>Newsletter</li>
+            </ul>
+        </div>
+        <div class="col-md-2">
+            <h4>EXTRAS</h4>
+            <ul class="list-unstyled">
+                <li>My account</li>
+                <li>Order History</li>
+                <li>Wish List</li>
+                <li>Newsletter</li>
+            </ul>
+        </div>
+        <div class="col-md-3">
+            <i class="glyphicon glyphicon-map-marker">8901 Marmona Road, Glasgow DO489 </i><br>
+            <i class="glyphicon glyphicon-earphone"></i><br>
+            <i class="glyphicon glyphicon-envelope"></i>
+        </div>
+    </footer>
 </body>
 </html>
