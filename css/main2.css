@@ -10,8 +10,6 @@
 .div{
 	background-color:rgba(0,0,0,0.5);
 	height:300px;
-	position:absolute;
-	z-index:1000;
 }
 .margenes{
 	padding:10px 60px;
@@ -27,7 +25,8 @@
 }
 .llamado2{
 	color:white;
-	margin-left:30px;
+	margin-left:80px;
+	margin-top:90px;
 }
 .plomo{
 	background-color:#E8E8E8;
@@ -40,4 +39,10 @@
 }
 .letra14{
 	font-size:14px;
+}
+.derecha{
+	border-left:20px;
+}
+.letra12{
+	font-size:12px;
 }
