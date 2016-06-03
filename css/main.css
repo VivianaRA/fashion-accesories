@@ -8,19 +8,17 @@
 	font-size:12px;
 }
 .especial{
-	margin:20px 80px;
+	border:20px 80px;
 }
 .fondo{
 	position: relative;
 	height: 400px;
 	margin: 0px;
-	max-width:100%;
 }
 .div{
 	position: absolute;
 	height: 400px;
 	text-align: center;
-	margin: 0px 0px;
 	color: #FFF;
 	}
 .slides {
