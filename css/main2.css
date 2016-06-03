@@ -1,0 +1,10 @@
+*{outline: solid 1px rgba(255,0,0,0.3);}
+.fondo{
+	background-image:url('../images/blog3.jpg');
+	height:400px;
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.margenes{
+	padding:10px 60px;
+}
